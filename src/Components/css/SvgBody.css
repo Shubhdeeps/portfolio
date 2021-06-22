@@ -1,0 +1,44 @@
+#Star1{
+        animation: blinker 1s linear infinite;
+}
+#Star2{
+    animation: blinker 2s linear infinite;
+}
+#Star3{
+    animation: blinker 3s linear infinite;
+}
+#Star4{
+    animation: blinker 1s linear infinite;
+}
+#Star5{
+    animation: blinker 2.2s linear infinite;
+}
+#Star6{
+    animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+.svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#backVector{
+    border: 14px solid #2F564F;
+}
+
+.moon{
+    align-items: center;
+    z-index: 99;
+    position: absolute;
+    top: -5vh;
+    
+
+}

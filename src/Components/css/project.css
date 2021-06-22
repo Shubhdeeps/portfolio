@@ -1,0 +1,16 @@
+
+
+.project-Container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-items: center;
+    position: relative;
+    top: -10vh;
+    
+}
+
+.project-Container li{
+    list-style: none;
+    margin-left: 80px;
+}

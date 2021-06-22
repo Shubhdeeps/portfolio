@@ -1,0 +1,105 @@
+
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    justify-items: center;
+    scroll-snap-align: start;
+    max-width: 200wh;
+    overflow-x: hidden;
+}
+
+.section-container{
+
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+#section-1{
+    position: relative;
+    background: #d2f8f1;
+}
+
+#section-2{
+    position: relative;
+    background-color: #e3c4a8;
+}
+
+#section-3{
+    position: relative;
+     background-color: #FDE3F5;  
+    flex-wrap: wrap;
+ }
+ 
+ 
+ #section-4{
+     background-color:#fffeb8;
+     z-index: -2;
+ }
+
+
+.skills-container{
+    position: absolute;
+    border: 2px solid red;
+    top: 0vh;
+    left: 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boy-container{
+    position: absolute;
+    display: flex;
+    height: 50vh;
+    width: 25vh;
+    right: 30vh;
+    bottom: 20vh;
+    
+}
+
+
+
+.skills-container div{
+    position: absolute;
+    height: 200px;
+    width: 150px;
+ 
+}
+
+.skill1{
+    position: absolute;
+    top: 10vh;  
+    left: 40vh;
+}
+
+.skill2{
+    top: 17vh;  
+    left: 80vh;
+}
+
+.skill3{
+    top: 13vh;  
+    left: 120vh;
+}
+
+.skill4{
+    top: 50vh;  
+    left: 50vh;
+}
+
+.skill5{
+    top: 55vh;
+    left: 85vh;
+}
+.skill6{
+    top: 40vh;
+    left: 113vh;
+}
+
+
+.images img{
+    width: 50px;
+    height: 50px;
+}

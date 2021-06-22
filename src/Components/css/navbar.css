@@ -1,0 +1,76 @@
+.navbar{
+   
+    position: sticky;
+    top: 10px;
+    z-index: 99;
+
+}
+
+
+
+.pfp{
+    position: absolute;
+   
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    list-style-type: none;
+    justify-items: center;
+    top: 25ch;
+    transform: translate(0, -50%);
+    right: 5vh;
+
+width: 127px;
+height: 481px;
+
+background: rgba(233, 233, 233, 0.4);
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 10px;
+
+    
+}
+.list li {
+    position: relative;
+    top: 2px;
+    height: 14vh;
+
+}
+
+
+.scroll {
+    position: absolute;
+    z-index: -2;
+}
+.icon{
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    z-index: 99;
+    height: 50px;
+    width: 50px;
+}
+
+.list li a svg{
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+
+}
+
+.list li a svg:hover circle:first-child{
+    fill: whitesmoke;
+}
+
+#hide{
+    position: absolute;
+    right: 10vh;
+    top: 19vh;
+}
+
+#hide svg:hover rect{
+    fill-opacity: 1;
+}
